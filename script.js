@@ -1,8 +1,8 @@
-
 let button = document.querySelector("#button");
-
-const determineLameness = (person) => {
+console.log(lamenessData)
+const determineLameness=  (person)=> {
     console.log(person)
+    console.log(lamenessData)
     let lameness = false;
     if (person.toLowerCase() === "corey" || person.toLowerCase() === "corey post") {
         lameness = true;
@@ -11,11 +11,11 @@ const determineLameness = (person) => {
 }
 
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function() {
     let inputText = document.getElementById("inputText").value;
-    let lameAnswer = determineLameness(inputText);
-    let lamenessDisplay = "";
-
+   let lameAnswer = determineLameness(inputText);
+   let lamenessDisplay = "";
+   
     if (lameAnswer) {
         lamenessDisplay = "You are a lame person";
     } else {
