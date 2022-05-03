@@ -54,6 +54,9 @@ button.addEventListener("click", function() {
         if(lamenessReasons.length > 1) {
             document.getElementById("reason_btn").style.display="inline";
         }
+        else{
+            document.getElementById("reason_btn").style.display="none";
+        }
         lamenessReasonDisplay = lamenessReasons[0]
     } else {
         lamenessDisplay = "You are not a lame person";
