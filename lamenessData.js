@@ -43,6 +43,11 @@ const lamenessData = {
             "lameness_reason_id": 2,
             "person_id": 2,
             "lameness_reason": "Didn't play disc golf."
+        },
+        {
+            "lameness_reason_id": 3,
+            "person_id": 1,
+            "lameness_reason": "Refuses to put on pants."
         }
     ]
 }

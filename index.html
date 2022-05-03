@@ -10,10 +10,17 @@
 <body>
     <nav>The Lameness Test</nav>
     <main class="container">
-    <h1 style="text-align:center">Are you lame?</h1>
-    <input placeholder="Enter Your Name" type="text" id="inputText">
-    <button id="button">Submit</button>
-    <h2 id="output" style="text-align:center"></h2>
+      
+        <h1 style="text-align:center">Are you lame?</h1>
+        <input placeholder="Enter Your Name" type="text" id="inputText">
+        <button id="button">Submit</button>
+       
+        <h2 id="output" style="text-align:center"></h2>
+        <h3 id="reason_title"></h3>
+        <div style="display:none;" id="reason_container" >
+            <p id="output_reason" style="text-align:center"></p>
+            <p id="reason_btn" style="display: none;" role="button" >Next Reason</p>
+        </div>
 </main>
 </body>
 <script type="text/javascript" src="lamenessData.js"></script>
